@@ -1,26 +1,28 @@
-# Awesome Raiden
+# Awesome Raiden [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) 
+
+> Welcome to **Awesome Raiden**, a community-curated list of resources, links, projects, tools and hacks on, for and around Raiden!
 
 ### Contents
 
 - [Raiden Network](#raiden-network)
-  - [Specifications](#specifications)
+  - [Docs and Specs](#docs-and-specs)
   - [Explorers](#explorers)
 - [Developer Resources](#developer-resources)
-  - [Tools](#tools)
-  - [RApps](#rapps)
-  - [Ether Faucets](#ether-faucets)
-    - [ERC20 Faucets](#erc20-faucets)
-    - [Hackathon](#hackathon)
-- [Starting a Raiden Full Node](#starting-a-raiden-full-node)
+  - [Tools](#-tools)
+  - [Hacks and More Tools for Devs](#-hacks-and-more-tools-for-devs)
+  - [RApps](#-rapps)
+  - [Testnet Ether Faucets](#-testnet-ether-faucets)
+  - [ERC20 Faucets](#-erc20-faucets)
+  - [Hackathons](#-hackathons)
+- [Running a Raiden Full Node](#running-a-raiden-full-node)
   - [Testnet](#mainnet)
   - [Mainnet](#mainnet)
   - [Connectivity](#connectivity)
 - [Learning Resources](#learning-resources)
-  - [Talks](#talks)
-  - [Research Calls](#research-calls)
-  - [Pulse](#pulse)
-  - [dApp Testing](#dapp-testing)
+  - [Interesting Links](#-interesting-links)
+  - [Raiden Pulse](#-raiden-pulse)
 - [Community](#community)
+  - [Community Content](#community-content)
   - [Community Channels](#community-channels)
 - [Raiden Trust](#raiden-trust)
 - [MicroRaiden](#microraiden)
@@ -30,11 +32,13 @@
 
 - [Website](https://raiden.network/)
 - [Github](https://github.com/raiden-network/)
+- [Developer Portal](https://developer.raiden.network/)
 - [Dev Chat](https://gitter.im/raiden-network/raiden)
 - [Reddit](https://www.reddit.com/r/raidennetwork)
 - [Twitter](https://twitter.com/raiden_network)
+- [Blog](https://medium.com/raiden-network)
 
-### Specifications
+### Docs and Specs
 
 - [Raiden Network Documentation (stable)](https://raiden-network.readthedocs.io/en/stable/)
 - [Raiden Network Specification (latest)](https://media.readthedocs.org/pdf/raiden-network-specification/latest/raiden-network-specification.pdf)
@@ -45,19 +49,34 @@
 
 ### Explorers
 
+> Visualization and network statistics of token networks on the Raiden Network
+
 - [Mainnet](https://explorer.raiden.network)
-- [Kovan](https://kovan.explorer.raiden.network)
-- [Ropsten](https://ropsten.explorer.raiden.network)
-- [Goerli](https://goerli.explorer.raiden.network)
-- [Rinkeby](https://rinkeby.explorer.raiden.network)
+- [Kovan testnet](https://kovan.explorer.raiden.network)
+- [Ropsten testnet](https://ropsten.explorer.raiden.network)
+- [Goerli testnet](https://goerli.explorer.raiden.network)
+- [Rinkeby testnet](https://rinkeby.explorer.raiden.network)
 
 ## Developer Resources
 
+- [Developer Portal](https://developer.raiden.network/)
 - [Releases List](https://github.com/raiden-network/raiden/releases) (+[nightly releases](https://raiden-nightlies.ams3.digitaloceanspaces.com/index.html))
 
-<sub><sup>Note: The following sections include WIP and demo projects.</sup></sub>
+### 🏗️ Tools
 
-### Tools
+- [Raiden Workshop Configurator](https://workshops.raiden.network/) - Order hosted nodes for a Raiden workshop or meetup! 
+- [Raiden Workshop Material](https://github.com/raiden-network/workshop/tree/eth_cape_town) - Onboarding script and installation guide to create a setup which allows quick and easy hacking on Raiden (e.g. for workshops)
+- [Raiden Wizard](https://github.com/raiden-network/raiden-installer) - Web-based installation tool which provides quick and easy set up of a Raiden node (currently Goerli support only!)
+- [DAppNode](https://github.com/dappnode/DAppNodePackage-raiden) (+[DAppNode docs](https://dappnode.github.io/DAppNodeDocs/install/) +[testnet version](https://github.com/vdo/DAppnodePackage-raiden-testnet)) - DAppNode package for the Raiden network
+- [Raiden Scenario Player](https://github.com/raiden-network/scenario-player) - integration testing tool
+- [Homebrew Tap](https://github.com/raiden-network/homebrew-raiden) for Raiden
+- [WebUI](https://github.com/raiden-network/webui) - Raiden Web User Interface
+- [Raiden Light Client](https://github.com/raiden-network/light-client) - Raiden Light Client SDK and dApp
+- [The Raiden dApp](http://lightclient.raiden.network) - a reference implementation of the Raiden Light Client SDK
+
+### 🛠️ Hacks and More Tools for Devs
+
+> The following section includes WIP, demo and hackathon projects.
 
 - [EthArmbian](http://ethraspbian.com/) - turns NanoPC-T4 or RockPro64 into a full Ethereum node. Includes components of the Ethereum ecosystem such as Raiden Network([version check](https://github.com/diglos/userpatches#ethereum-framework)), Trinity, Status.im, IPFS, Swarm and Vipnode. Initial support for Eth2.0 clients.
 - [Raiden Burner](https://github.com/johngrantuk/raidenburner), [demo](https://youtu.be/Pn0gsljGalo) - add an easy to use Raiden payment option to the [Burner Wallet](https://github.com/austintgriffith/burner-wallet)
@@ -65,26 +84,22 @@
 - [Raiden Ticker](https://github.com/pisuthd/raiden-ticker) - integrate Raiden's payment channel with IoT devices
 - [Docker Hub](https://hub.docker.com/r/raidennetwork/raiden) and Use Docker, Infura.io to [Build Raiden Network on Ubuntu 18.04](https://medium.com/@szhao_31738/use-docker-infura-io-to-build-raiden-network-on-ubuntu-18-04-a5eae7357f61) tutorial
 - PyPI for [Raiden](https://pypi.org/project/raiden/) and [Raiden Services](https://pypi.org/project/raiden-services/)
-- [DAppNode](https://github.com/dappnode/DAppNodePackage-raiden) (+[DAppNode docs](https://dappnode.github.io/DAppNodeDocs/install/) +[testnet version](https://github.com/vdo/DAppnodePackage-raiden-testnet)) - DAppNode package for the Raiden network
-- [Raiden Scenario Player](https://github.com/raiden-network/scenario-player) - integration testing tool
-- [Homebrew Tap](https://github.com/raiden-network/homebrew-raiden) for Raiden
-- [WebUI](https://github.com/raiden-network/webui) - Raiden Web User Interface
-- [Test environment scripts](https://github.com/kelsos/test-environment-scripts) - a collection of scripts used to bootstrap a test raiden environment
 - [Raiden Express Server](https://github.com/TarCode/raiden-express-server) and [Raiden React Client](https://github.com/TarCode/raiden-react-client) - an Express Server that connects to a Raiden Client
 - [Parity Docker Raiden dev env](https://github.com/calinchiper/parity-docker-raiden-dev-env) - Dockerized POA Parity blockchain + Raiden network contracts deployment scripts & config generator
 - [Token Network's Channels](https://github.com/manuelwedler/token-network-channels) - Small dApp displaying Token Network's Channels (part of the Raiden network)
+- [Test environment scripts](https://github.com/kelsos/test-environment-scripts) - a collection of scripts used to bootstrap a test raiden environment
 - [Raiden Invoice](https://github.com/ChaeByunghoon/raiden-invoice) and [Invoice Server](https://github.com/ChaeByunghoon/raiden-invoice-server) - A library for encoding and decoding Raiden network payment requests
 - [Go Raiden Client](https://github.com/cpurta/go-raiden-client) - A Raiden node client written in Go
 - [PyRaiden](https://github.com/nanspro/PyRaiden) - A client library to interact with Raiden Network written in python
 - [Local Raiden](https://github.com/ConsenSys/Local-Raiden) - Run a local Raiden network in docker containers for demo and testing purposes
 
-### RApps
+### 🖥️ RApps 
+
+> RApps (Raiden Apps) are demos, hackathon submussions and projects building on/with Raiden.
 
 - [Fairspot](https://github.com/ilinzweilin/ethCapeTown) - WiFi internet access on the go (in 100kb chunks) using Raiden
 - [NUtube](https://nutube.network/#/), [Github](https://github.com/CryptoManiacsZone/nuTube.network), [demo](https://www.youtube.com/watch?v=Tx-j0TubY7k) - decentralized P2P live streaming w/ micropayments
 - [DTok](https://github.com/ethcapetown/burner-wallet/tree/dtok-raiden), [demo](https://www.youtube.com/watch?v=2CFAJCfKs-8) - decentralized streaming and tipping platform w/ Raiden, BurnerWallet ([link](https://github.com/austintgriffith/burner-wallet)) and ENS domains
-- [Raiden Light Client](https://github.com/raiden-network/light-client) - Raiden Light Client SDK and dApp
-- [The Raiden dApp](http://lightclient.raiden.network) - a reference implementation of the Raiden Light Client SDK
 - [XUD](https://github.com/ExchangeUnion/xud/) - a decentralized exchange built on the Lightning and Raiden networks to enable instant and trustless cryptocurrency swaps
 - [Raiden Maps](https://medium.com/raiden-map/raiden-map-mockups-5586082693bf), [Github](https://github.com/raiden-map)
 - [Storj](https://github.com/stefanbenten/raiden-on-storj), [Medium post](https://storj.io/blog/2018/12/taking-payments-to-the-next-level-with-raiden/) - decentralized cloud storage
@@ -93,25 +108,25 @@
 - [Cryptogrannies](https://github.com/swops-io/ETHSingapore-project) - pushing crypto to be simple enough to be used by the oldies
 - [Raidenooh](https://github.com/pisuthd/raiden-dooh) - decentralized digital signage platform
 
-### Ether Faucets
+### 👛 Testnet Ether Faucets
 
-🏃Need testnet Ether?!
+Need testnet Ether? Check out these faucets.
 - [Ropsten](https://faucet.ropsten.be/)
 - [Rinkeby](https://faucet.rinkeby.io/)
 - [Kovan](https://faucet.kovan.network/)
 - [Goerli](https://faucet.goerli.mudit.blog/)
 
-Or if you have MetaMask installed then try the [MetaMask faucets](https://faucet.metamask.io).
+If you have MetaMask installed you can also try the [MetaMask faucets](https://faucet.metamask.io).
 
-#### ERC20 Faucets
+### 💸 ERC20 Faucets
 
-Wrap ether on [0x protocol](https://0x.org/portal). 🏃Need testnet ERC20 tokens quick?! Try [bokkypoobah](https://github.com/bokkypoobah/WeenusTokenFaucet)'s ERC20 token faucet. For example, send a 0 value transaction from your account to the address below on your preferred network and you'll get 1,000 XEENUS tokens:
+Wrap ether on [0x protocol](https://0x.org/portal). 🏃 Need testnet ERC20 tokens quick?! Try [bokkypoobah](https://github.com/bokkypoobah/WeenusTokenFaucet)'s ERC20 token faucet. For example, send a 0 value transaction from your account to the address below on your preferred network and you'll get 1,000 XEENUS tokens:
 - [Ropsten](https://ropsten.etherscan.io/address/0x7E0480Ca9fD50EB7A3855Cf53c347A1b4d6A2FF5#code): 0x7E0480Ca9fD50EB7A3855Cf53c347A1b4d6A2FF5
 - [Rinkeby](https://rinkeby.etherscan.io/address/0x022E292b44B5a146F2e8ee36Ff44D3dd863C915c#code): 0x022E292b44B5a146F2e8ee36Ff44D3dd863C915c
 - [Kovan](https://kovan.etherscan.io/address/0x022E292b44B5a146F2e8ee36Ff44D3dd863C915c#code): 0x022E292b44B5a146F2e8ee36Ff44D3dd863C915c
 - [Goerli](https://goerli.etherscan.io/address/0x022E292b44B5a146F2e8ee36Ff44D3dd863C915c#code): 0x022E292b44B5a146F2e8ee36Ff44D3dd863C915c
 
-### Hackathon
+### 👷 Hackathons
 
 The [GROW ETHEREUM](https://gitcoin.co/hackathon/grow-ethereum) hackathon. Jul 29, 2019 - Aug 15, 2019. A three-week virtual hackathon where global developers and entrepreneurs will collaborate to push blockchain applications to new frontiers of business + technology + social change.
 - [Join the Gitcoin hackathon discord channel](https://discord.gg/jzmb2y)
@@ -121,6 +136,7 @@ The [GROW ETHEREUM](https://gitcoin.co/hackathon/grow-ethereum) hackathon. Jul 2
   - [Build A Raiden Library In Your Favorite Programming Language](https://gitcoin.co/issue/raiden-network/hackathons/4/3284)
   - [Build The Raiden UI 2.0!](https://gitcoin.co/issue/raiden-network/hackathons/5/3285)
   - [BWYL (Build Whatever You Like!) / Open Bounty: Raiden + X = 🔥](https://gitcoin.co/issue/raiden-network/hackathons/6/3286)
+
 [![RaidenHack](https://user-images.githubusercontent.com/35585644/62123517-70cce880-b30b-11e9-9a36-fa16ef362b32.jpeg)](https://twitter.com/raiden_network/status/1156121197660319744)
 
 Need ideas?! Check out [RApps](#rapps) and [Tools](#tools). Additionally, here's some resources from the previous hack:
@@ -128,9 +144,11 @@ Need ideas?! Check out [RApps](#rapps) and [Tools](#tools). Additionally, here's
 - Video: ["Beyond Blockchain Hackathon: Raiden"](https://youtu.be/wdz8M3RXJQs)
 - Unfinished idea: Integrate Raiden support into Zerynth. [Idea TL;DR here](https://github.com/raiden-network/hackathons/issues/2#issuecomment-509925857)
 
-## Starting a Raiden Full Node
+## Running a Raiden Full Node
 
-[System Requirements and Installation Guide](https://raiden-network.readthedocs.io/en/latest/overview_and_guide.html). You should usually try new things on Ethereum on testnet before mainnet so you can get a hang of it, this includes trying Raiden Network.
+[System Requirements and Installation Guide](https://raiden-network.readthedocs.io/en/latest/overview_and_guide.html). If possible, you should always try new things on Ethereum on testnet before mainnet so you can get a hang of it, this includes trying Raiden Network. 
+
+Please also note that the current mainnet releases are an alpha deployment of the Raiden Network on the Ethereum mainnet. Hence, deposit limits, as well as a deprecation switch have been put into place. It is absolutely crucial to read the [requirements for safe usage](https://raiden-network.readthedocs.io/en/latest/overview_and_guide.html#requirements-for-safe-usage) carefully before using the software on mainnet.
 
 ### Testnet
 
@@ -166,6 +184,8 @@ Want to find some Raiden nodes online already to connect to? Here's a few :)
 
 ## Learning Resources
 
+### 🔖 Interesting Links
+
 - [Raiden FAQ](https://raiden.network/faq.html)
 - [Medium Publications](https://medium.com/@raiden_network) / [Blog](https://medium.com/raiden-network)
 - [Reddit Weekly Update](https://www.reddit.com/r/raidennetwork/search?q=GIT&restrict_sr=1&sort=new)
@@ -179,7 +199,9 @@ Want to find some Raiden nodes online already to connect to? Here's a few :)
 - Send "/videos" to [RaidenInfoBot](https://t.me/RaidenInfoBot) for more videos!
 - Send "/events" to [RaidenInfoBot](https://t.me/RaidenInfoBot) for upcoming community events!
 
-### Pulse
+### 📝 Raiden Pulse
+
+> Raiden Pulse is a bi-monthly summary of all things Raiden: development updates, events, announcements and more.
 
 - [Raiden Pulse #6:](https://medium.com/raiden-network/raiden-pulse-6-news-from-may-and-june-f519818e7650) News from May and June
 - [Raiden Pulse #5:](https://medium.com/raiden-network/raiden-pulse-5-news-from-march-and-april-56e781aea7c) News from March and April
@@ -188,21 +210,9 @@ Want to find some Raiden nodes online already to connect to? Here's a few :)
 - [Raiden Pulse #2:](https://medium.com/raiden-network/raiden-pulse-2-news-from-september-and-october-6a6c6be8ad67) News from September and October
 - [Raiden Pulse #1:](https://medium.com/raiden-network/raiden-pulse-1-news-from-july-and-august-423fae4e9d3e) News from July and August
 
-### dApp Testing
+## Community 
 
-Resources for trying the WIP Raiden dApp in your browser. The Light Client works on Ropsten/Rinkeby/Goerli/Kovan, here we'll use Ropsten.
-1. Make sure you have MetaMask installed and connected to Ropsten Test Network
-![ropsten](https://user-images.githubusercontent.com/35585644/61182722-b5edeb00-a67a-11e9-9930-bfa4db704244.png).
-2. Get testnet Ether on [Ropsten](https://faucet.ropsten.be/) (going off-chain with Raiden requires on-chain interactions, i.e. Gas).
-3. Wrap Ether using the [0x Portal](https://0x.org/portal/weth). MetaMask might not show the correct wrapped Ether on testnet after you've wrapped it. If so, click on MetaMask and add Custom Token 0xc778417e063141139fce010982780140aa0cd5ab
-![addweth](https://user-images.githubusercontent.com/35585644/61182725-c43c0700-a67a-11e9-9ca5-19cb67341cf5.png)
-4. Start the Raiden dApp [here](http://lightclient.raiden.network). You can now use the dApp to open, close and settle channels.
-
-note: The dApp user interface is very early WIP<sup>[explained more here](https://t.me/RaidenNetworkCommunity/28310)</sup>, the first milestone will enable sending tokens and not receiving them. If you're interested to get the full experience of Raiden you will want to run a full Raiden node and use the WebUI to get a good experience.
-
-## Community
-
-[Raiden Workshop Configurator](https://workshops.raiden.network/) - host a Raiden workshop or meetup! 😃
+### Community Content
 
 - [Emerging Tech for Beginners: Convergence of Emerging Technologies with Brett Robertson of Ethereum](https://youtu.be/81_pz2J5zRs)
 - [Meeting Raiden @ Web3Summit](http://reddit.com/r/raidennetwork/comments/9red2i/meeting_raiden_web3summit/) and [Raiden: Ethereum's Payment Channel Network](https://medium.com/@surferfc/raiden-ethereums-payment-channel-network-acc6e5c709b0)
@@ -217,12 +227,12 @@ note: The dApp user interface is very early WIP<sup>[explained more here](https:
 
 ### Community Channels
 
-- [RNC Telegram](https://t.me/RaidenNetworkCommunity) - where RaidenInfoBot lives
+> All community channels are run by the community.
+
+- [Raiden Network Community on Telegram](https://t.me/RaidenNetworkCommunity) - featuring the RaidenInfoBot
 - [Discord](https://discord.gg/zZjYJ6e) - bridge and feeds (most maintained)
 - [Slack](https://join.slack.com/t/raidencommunity/shared_invite/enQtNTQwMTM5MjY4MTQ4LTBlOTQzMjUyOGFkMTgwOGQyMmMyNTE0MmI0YmI4OTQ5MjY3N2FkYTVlNWRkODdkNmIwMWQzZDBjODAyZGFhOWI) - bridge and feeds
 - [Matrix/Riot](https://riot.im/app/#/room/#raidencommunity:matrix.org) - bridge
-
-<sub><sup>note: community channels are run by the community</sup></sub>
 
 ## Raiden Trust
 - [Raiden Trust Website](https://www.raidentrust.li/)
@@ -243,7 +253,7 @@ note: The dApp user interface is very early WIP<sup>[explained more here](https:
 - [Berlin Meetup drone demo](https://youtube.com/watch?v=E6CIgJPxgpQ)
 - [ScalingNOW!](https://youtu.be/81gK-5qLFeg)
 
-### MicroRApps
+### Built with MicroRaiden
 
 - [AppStoreFoundation](https://hackernoon.com/anu-2-app-store-foundation-and-dev-status-a3de6d144e5f), [Github](https://github.com/AppStoreFoundation/asf-sdk) - sell in-app items for AppCoins
 - [SmartMesh/SmartRaiden](https://smartmesh.io/) - internet-free digital payments and transactions
@@ -252,5 +262,4 @@ note: The dApp user interface is very early WIP<sup>[explained more here](https:
 ## Other Resources
 
 Resources indirectly related to Raiden Network
-- [dxDAO Vote Staking Interface](https://dxdao.daostack.io) - lock RDN tokens to earn voting power for the [@dxDAO](https://twitter.com/_dx_dao). Staking period has finished.
-- [dxDAO Alchemy](https://alchemy.daostack.io/dao/0x519b70055af55a007110b4ff99b0ea33071c720a)
+
