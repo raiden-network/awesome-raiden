@@ -67,7 +67,7 @@
 - [Raiden Workshop Configurator](https://workshops.raiden.network/) - Order hosted nodes for a Raiden workshop or meetup! 
 - [Raiden Workshop Material](https://github.com/raiden-network/workshop/tree/eth_cape_town) - Onboarding script and installation guide to create a setup which allows quick and easy hacking on Raiden (e.g. for workshops)
 - [Raiden Wizard](https://github.com/raiden-network/raiden-installer) - Web-based installation tool which provides quick and easy set up of a Raiden node (currently Goerli support only!)
-- [DAppNode](https://github.com/dappnode/DAppNodePackage-raiden) (+[DAppNode docs](https://dappnode.github.io/DAppNodeDocs/install/) +[testnet version](https://github.com/vdo/DAppnodePackage-raiden-testnet)) - DAppNode package for the Raiden network
+- [Raiden on DAppNode](https://github.com/dappnode/DAppNodePackage-raiden) (+[DAppNode docs](https://dappnode.github.io/DAppNodeDocs/install/) +[testnet version](https://github.com/vdo/DAppnodePackage-raiden-testnet)) - DAppNode package for the Raiden network
 - [Raiden Scenario Player](https://github.com/raiden-network/scenario-player) - integration testing tool
 - [Homebrew Tap](https://github.com/raiden-network/homebrew-raiden) for Raiden
 - [WebUI](https://github.com/raiden-network/webui) - Raiden Web User Interface
@@ -79,16 +79,13 @@
 > The following section includes WIP, demo and hackathon projects.
 
 - [EthArmbian](http://ethraspbian.com/) - turns NanoPC-T4 or RockPro64 into a full Ethereum node. Includes components of the Ethereum ecosystem such as Raiden Network([version check](https://github.com/diglos/userpatches#ethereum-framework)), Trinity, Status.im, IPFS, Swarm and Vipnode. Initial support for Eth2.0 clients.
-- [Raiden Burner](https://github.com/johngrantuk/raidenburner), [demo](https://youtu.be/Pn0gsljGalo) - add an easy to use Raiden payment option to the [Burner Wallet](https://github.com/austintgriffith/burner-wallet)
 - [Grid Ethereum Plugin](https://github.com/PhilippLgh/ethereum-grid-tutorials/blob/cfb3b205374a34550e43cdbdbb4ec7e90a2d4bf4/Raiden.md) - the functionality with a plugin and a Web UI
-- [Raiden Ticker](https://github.com/pisuthd/raiden-ticker) - integrate Raiden's payment channel with IoT devices
 - [Docker Hub](https://hub.docker.com/r/raidennetwork/raiden) and Use Docker, Infura.io to [Build Raiden Network on Ubuntu 18.04](https://medium.com/@szhao_31738/use-docker-infura-io-to-build-raiden-network-on-ubuntu-18-04-a5eae7357f61) tutorial
 - PyPI for [Raiden](https://pypi.org/project/raiden/) and [Raiden Services](https://pypi.org/project/raiden-services/)
 - [Raiden Express Server](https://github.com/TarCode/raiden-express-server) and [Raiden React Client](https://github.com/TarCode/raiden-react-client) - an Express Server that connects to a Raiden Client
 - [Parity Docker Raiden dev env](https://github.com/calinchiper/parity-docker-raiden-dev-env) - Dockerized POA Parity blockchain + Raiden network contracts deployment scripts & config generator
 - [Token Network's Channels](https://github.com/manuelwedler/token-network-channels) - Small dApp displaying Token Network's Channels (part of the Raiden network)
 - [Test environment scripts](https://github.com/kelsos/test-environment-scripts) - a collection of scripts used to bootstrap a test raiden environment
-- [Raiden Invoice](https://github.com/ChaeByunghoon/raiden-invoice) and [Invoice Server](https://github.com/ChaeByunghoon/raiden-invoice-server) - A library for encoding and decoding Raiden network payment requests
 - [Go Raiden Client](https://github.com/cpurta/go-raiden-client) - A Raiden node client written in Go
 - [PyRaiden](https://github.com/nanspro/PyRaiden) - A client library to interact with Raiden Network written in python
 - [Local Raiden](https://github.com/ConsenSys/Local-Raiden) - Run a local Raiden network in docker containers for demo and testing purposes
@@ -97,16 +94,23 @@
 
 > RApps (Raiden Apps) are demos, hackathon submussions and projects building on/with Raiden.
 
+**Hacks and Games**
+- [Raiden Ticker](https://github.com/pisuthd/raiden-ticker) - LED matrix display controlled by ESP8266 to display messages paid for through Raiden
+- [Raiden Burner](https://github.com/johngrantuk/raidenburner), [demo](https://youtu.be/Pn0gsljGalo) - add an easy to use Raiden payment option to the [Burner Wallet](https://github.com/austintgriffith/burner-wallet)
 - [Fairspot](https://github.com/ilinzweilin/ethCapeTown) - WiFi internet access on the go (in 100kb chunks) using Raiden
 - [NUtube](https://nutube.network/#/), [Github](https://github.com/CryptoManiacsZone/nuTube.network), [demo](https://www.youtube.com/watch?v=Tx-j0TubY7k) - decentralized P2P live streaming w/ micropayments
 - [DTok](https://github.com/ethcapetown/burner-wallet/tree/dtok-raiden), [demo](https://www.youtube.com/watch?v=2CFAJCfKs-8) - decentralized streaming and tipping platform w/ Raiden, BurnerWallet ([link](https://github.com/austintgriffith/burner-wallet)) and ENS domains
-- [XUD](https://github.com/ExchangeUnion/xud/) - a decentralized exchange built on the Lightning and Raiden networks to enable instant and trustless cryptocurrency swaps
-- [Raiden Maps](https://medium.com/raiden-map/raiden-map-mockups-5586082693bf), [Github](https://github.com/raiden-map)
-- [Storj](https://github.com/stefanbenten/raiden-on-storj), [Medium post](https://storj.io/blog/2018/12/taking-payments-to-the-next-level-with-raiden/) - decentralized cloud storage
 - [CryptoBotWars](https://cryptoplayer.one), [GitHub](https://github.com/cryptoplayerone/cryptobotwars), Medium posts [Part 1](https://medium.com/@loredana.cirstea/cryptobotwars-or-how-to-build-shitty-demos-and-why-19b5ecf60c76) and [Part 2](https://medium.com/@loredana.cirstea/cryptobotwars-part-2-conclusions-ebde6fa716f6) - Tic Tac Toe w/ micropayments and a Game Guardian
 - [Team SCG](https://github.com/StupidCatGentlemen/Ether) - buying and supplying electricity on an open marketplace using Raiden for payments.
 - [Cryptogrannies](https://github.com/swops-io/ETHSingapore-project) - pushing crypto to be simple enough to be used by the oldies
 - [Raidenooh](https://github.com/pisuthd/raiden-dooh) - decentralized digital signage platform
+- [Raiden Invoice](https://github.com/ChaeByunghoon/raiden-invoice) and [Invoice Server](https://github.com/ChaeByunghoon/raiden-invoice-server) - A library for encoding and decoding Raiden network payment requests
+
+**Projects**
+- [Storj](https://github.com/stefanbenten/raiden-on-storj), [Medium post](https://storj.io/blog/2018/12/taking-payments-to-the-next-level-with-raiden/) - decentralized cloud storage
+- [Exchange Union XUD](https://github.com/ExchangeUnion/xud/) - a decentralized exchange built on the Lightning and Raiden networks to enable instant and trustless cryptocurrency swaps
+- [Raiden Maps](https://medium.com/raiden-map/raiden-map-mockups-5586082693bf), [Github](https://github.com/raiden-map) - a Raiden Network Analyzer
+
 
 ### 👛 Testnet Ether Faucets
 
@@ -261,5 +265,7 @@ Want to find some Raiden nodes online already to connect to? Here's a few :)
 
 ## Other Resources
 
-Resources indirectly related to Raiden Network
 
+<sub> **Disclaimer**: Please note, that even though we do our best to ensure the quality and accuracy of the information provided, this repo is community curated content and may contain views and opinions, errors and omissions for which the content creator(s) and any represented organization cannot be held liable.
+The wording and concepts regarding financial terminology (e.g. “payments”, “checks”, “currency”, “transfer” (of value)) are exclusively used in an exemplary way to describe technological principles and do not necessarily conform to the real world or legal equivalents of these terms and concepts.
+This repo lists experimental alpha software and work-in-progress. Please be aware that we cannot be held liable for any damages whatsoever or any loss of funds you may incur when using the code and/or software. Use it at your own risk. <sub>
