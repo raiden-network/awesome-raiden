@@ -8,9 +8,9 @@
   - [Docs and Specs](#docs-and-specs)
   - [Explorers](#explorers)
 - [Developer Resources](#developer-resources)
-  - [Tools](#-tools)
-  - [Hacks and More Tools for Devs](#-hacks-and-more-tools-for-devs)
-  - [RApps](#-rapps)
+  - [Tools](#%EF%B8%8F-tools)
+  - [Hacks and More Tools for Devs](#%EF%B8%8F-hacks-and-more-tools-for-devs)
+  - [RApps](#%EF%B8%8F-rapps)
   - [Testnet Ether Faucets](#-testnet-ether-faucets)
   - [ERC20 Faucets](#-erc20-faucets)
   - [Hackathons](#-hackathons)
@@ -139,7 +139,7 @@ The [GROW ETHEREUM](https://gitcoin.co/hackathon/grow-ethereum) hackathon. Jul 2
 
 [![RaidenHack](https://user-images.githubusercontent.com/35585644/62123517-70cce880-b30b-11e9-9a36-fa16ef362b32.jpeg)](https://twitter.com/raiden_network/status/1156121197660319744)
 
-Need ideas?! Check out [RApps](#rapps) and [Tools](#tools). Additionally, here's some resources from the previous hack:
+Need ideas?! Check out [RApps](#%EF%B8%8F-rapps) and [Tools](#%EF%B8%8F-tools). Additionally, here's some resources from the previous hack:
 - Winners: [Golang client library](https://github.com/cpurta/go-raiden-client) and [Raiden Ticker](https://github.com/pisuthd/raiden-ticker)
 - Video: ["Beyond Blockchain Hackathon: Raiden"](https://youtu.be/wdz8M3RXJQs)
 - Unfinished idea: Integrate Raiden support into Zerynth. [Idea TL;DR here](https://github.com/raiden-network/hackathons/issues/2#issuecomment-509925857)
