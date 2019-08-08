@@ -92,7 +92,7 @@
 
 ### 🖥️ RApps 
 
-> RApps (Raiden Apps) are demos, hackathon submussions and projects building on/with Raiden.
+> RApps (Raiden Apps) are demos, hackathon submissions and projects building on/with Raiden.
 
 **Hacks and Games**
 - [Raiden Ticker](https://github.com/pisuthd/raiden-ticker) - LED matrix display controlled by ESP8266 to display messages paid for through Raiden
