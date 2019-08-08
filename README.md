@@ -40,6 +40,7 @@
 
 ### Docs and Specs
 
+- [Raiden Readme](https://github.com/raiden-network/raiden/blob/develop/README.md)
 - [Raiden Network Documentation (stable)](https://raiden-network.readthedocs.io/en/stable/)
 - [Raiden Network Specification (latest)](https://media.readthedocs.org/pdf/raiden-network-specification/latest/raiden-network-specification.pdf)
 - [Raiden Services Documentation (latest)](https://raiden-services.readthedocs.io/en/latest/)
