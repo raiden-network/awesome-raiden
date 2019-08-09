@@ -180,11 +180,6 @@ A great permanent mainnet option is to use Raiden with [DAppNode](https://medium
 
 ### Connectivity
 
-Want to find some Raiden nodes online already to connect to? Here's a few :)
-- [Mainnet](https://etherscan.io/address/0x865b332B0B058C472Ee3B46C5a66b8D1699740E1)
-- [Ropsten](https://ropsten.etherscan.io/address/0x5257964ef9b81fba7276af2a97c111aad7b840d6)
-- Goerli: [1](https://goerli.etherscan.io/address/0xef0BCf6BBE8E67DEcc1F395CA67922663529F4F4), [2](https://goerli.etherscan.io/address/0xD4945bC6D538709B3431A84c4bEf24be341FbacB), [3](https://goerli.etherscan.io/address/0x2cCEfE5eCEc08A8de5bA96A064d789C0ABa50558), [4](https://goerli.etherscan.io/address/0x83c761f7ABa11A840c59d461921504603d8fc6e8) (connected 1<->4 on the [XEENUS token network](https://goerli.explorer.raiden.network/tokens/0x022E292b44B5a146F2e8ee36Ff44D3dd863C915c/), if you want to try multi-hop payments quickly)
-
 🏃Need multiple accounts of your own to test with?! Use [Geth](https://github.com/ethereum/go-ethereum/wiki/Installing-Geth) `geth account new` to create them quickly. They will be stored in `~/.ethereum/keystore/`. List them with `geth account list` (alternatively, if you don't have Geth, rerun the [Workshop onboarder](https://github.com/raiden-network/workshop/#on-boarding)). You can open as many nodes as you want on your local machine by giving different port numbers when starting Raiden. For example `--api-address http://127.0.0.1:5002` starts a Raiden node on port 5002 instead of the default 5001.
 
 ## Learning Resources
