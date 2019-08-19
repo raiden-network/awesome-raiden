@@ -90,6 +90,7 @@
 - [Go Raiden Client](https://github.com/cpurta/go-raiden-client) - A Raiden node client written in Go
 - [PyRaiden](https://github.com/nanspro/PyRaiden) - A client library to interact with Raiden Network written in python
 - [Local Raiden](https://github.com/ConsenSys/Local-Raiden) - Run a local Raiden network in docker containers for demo and testing purposes
+- [Raiden API TypeScript client](https://github.com/wslyvh/raiden-api-client) - A lightweight Raiden Network API TypeScript client to interact with a Raiden Network node.
 
 ### 🖥️ RApps 
 
