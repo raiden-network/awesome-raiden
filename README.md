@@ -134,21 +134,19 @@ Wrap ether on [0x protocol](https://0x.org/portal). 🏃 Need testnet ERC20 toke
 
 ### 👷 Hackathons
 
-The [GROW ETHEREUM](https://gitcoin.co/hackathon/grow-ethereum) hackathon. Jul 29, 2019 - Aug 15, 2019. A three-week virtual hackathon where global developers and entrepreneurs will collaborate to push blockchain applications to new frontiers of business + technology + social change.
-- [Join the Gitcoin hackathon discord channel](https://discord.gg/jzmb2y)
-- [Raiden specific hackathon repo](https://github.com/raiden-network/hackathons/issues)
-- RECOMMENDED to use [v0.100.3](https://github.com/raiden-network/raiden/releases/tag/v0.100.3) of Raiden Network for hacking!
+The [ETHBerlin Zwei](http://ethberlinzwei.com) hackathon. Aug 23rd (6PM) - Aug 25th (6PM) at Factory Görlitzer Park. A 48-hour platform for hacktivism where global developers, mentors and volunteers come together to go to infinity and beyond during [Blockchain Week Berlin](https://www.blockchainweek.berlin/).
+- [Raiden Knowledge Base at ETHBerlin Zwei](https://github.com/ethberlinzwei/KnowledgeBase/blob/master/resources/raiden.md)
+- [ETHBerlin Zwei Teamfinding 2019](https://github.com/ethberlinzwei/Find-A-Team)
+- [Connect with hackers on Riot](https://riot.im/app/#/room/#ethberlinhackers:matrix.org)
+- RECOMMENDED to use [v0.100.5a0 (Antifragile Crocodile)](https://github.com/raiden-network/raiden/releases/tag/v0.100.5a0) of Raiden Network for hacking at ETHBerlin Zwei!
 - Bounties:
-  - [Build A Raiden Library In Your Favorite Programming Language](https://gitcoin.co/issue/raiden-network/hackathons/4/3284)
-  - [Build The Raiden UI 2.0!](https://gitcoin.co/issue/raiden-network/hackathons/5/3285)
-  - [BWYL (Build Whatever You Like!) / Open Bounty: Raiden + X = 🔥](https://gitcoin.co/issue/raiden-network/hackathons/6/3286)
+  - [Raiden User Experience Challenge](https://github.com/ethberlinzwei/Bounties/issues/9)
+  - [Raiden Micropayments Challenge](https://github.com/ethberlinzwei/Bounties/issues/8)
+  - [Raiden IoT Challenge](https://github.com/ethberlinzwei/Bounties/issues/7)
 
-[![RaidenHack](https://user-images.githubusercontent.com/35585644/62123517-70cce880-b30b-11e9-9a36-fa16ef362b32.jpeg)](https://twitter.com/raiden_network/status/1156121197660319744)
+[![ETHBerlinZwei](https://user-images.githubusercontent.com/35585644/63592087-11a18180-c5f4-11e9-815a-6de76666245f.png)](https://twitter.com/raiden_network/status/1162354026979188739)
 
-Need ideas?! Check out [RApps](#%EF%B8%8F-rapps) and [Tools](#%EF%B8%8F-tools). Additionally, here's some resources from the previous hack:
-- Winners: [Golang client library](https://github.com/cpurta/go-raiden-client) and [Raiden Ticker](https://github.com/pisuthd/raiden-ticker)
-- Video: ["Beyond Blockchain Hackathon: Raiden"](https://youtu.be/wdz8M3RXJQs)
-- Unfinished idea: Integrate Raiden support into Zerynth. [Idea TL;DR here](https://github.com/raiden-network/hackathons/issues/2#issuecomment-509925857)
+Need ideas?! Check out [RApps](#%EF%B8%8F-rapps) and [Tools](#%EF%B8%8F-tools). Happy hacking!
 
 ## Running a Raiden Full Node
 
