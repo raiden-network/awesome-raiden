@@ -128,7 +128,7 @@ If you have the MetaMask browser extension installed you can also try the [MetaM
 
 Need to wrap testnet Ether? Having followed the steps in the previous section, use the MetaMask extension and [select your test network](https://github.com/MetaMask/Add-Token/blob/master/src/switch-network.jpg). Then you can wrap Ether into WETH using [0x protocol](https://0x.org/portal/weth), this currently works on Kovan and Ropsten. You can also wrap Ether using Etherscan on [Goerli](https://goerli.etherscan.io/address/0xb4fbf271143f4fbf7b91a5ded31805e42b2208d6#writeContract) and [Ropsten](https://rinkeby.etherscan.io/address/0x1b45d86492d098b10fdbf382c537359f776f8dad#writeContract): click 'Connect to Web3' and accept via MetaMask extension, on Etherscan scroll down to '5. deposit', enter the value of testnet Ether you'd like to wrap in 'payableAmount' and click write+confirm.
 
-If your wrapped Ether isn't showing up in MetaMask, never fear! Click 'Watch in Wallet' here:
+If your wrapped Ether isn't showing up in MetaMask, don't worry! Click 'Watch in Wallet' here:
 - [Goerli](https://metamask.github.io/Add-Token/add?tokenImage=https%3A%2F%2Fgithub.com%2FMetaMask%2Feth-contract-metadata%2Fblob%2Fmaster%2Fimages%2Fweth.png%3Fraw%3Dtrue&tokenName=Wrapped%20Ether&tokenAddress=0xb4fbf271143f4fbf7b91a5ded31805e42b2208d6&tokenNet=5&tokenSymbol=WETH&tokenDecimals=WETH)
 - [Ropsten](https://metamask.github.io/Add-Token/add?tokenImage=https%3A%2F%2Fgithub.com%2FMetaMask%2Feth-contract-metadata%2Fblob%2Fmaster%2Fimages%2Fweth.png%3Fraw%3Dtrue&tokenName=Wrapped%20Ether&tokenAddress=0xc778417e063141139fce010982780140aa0cd5ab&tokenNet=3&tokenSymbol=WETH&tokenDecimals=18)
 - [Kovan](https://metamask.github.io/Add-Token/add?tokenImage=https%3A%2F%2Fgithub.com%2FMetaMask%2Feth-contract-metadata%2Fblob%2Fmaster%2Fimages%2Fweth.png%3Fraw%3Dtrue&tokenName=Wrapped%20Ether&tokenAddress=0xd0a1e359811322d97991e03f863a0c30c2cf029c&tokenNet=42&tokenSymbol=WETH&tokenDecimals=18)
@@ -139,19 +139,9 @@ If your wrapped Ether isn't showing up in MetaMask, never fear! Click 'Watch in 
 
 ### 👷 Hackathons
 
-The [ETHBerlin Zwei](http://ethberlinzwei.com) hackathon. Aug 23rd (6PM) - Aug 25th (6PM) at Factory Görlitzer Park. A 48-hour platform for hacktivism where global developers, mentors and volunteers come together to go to infinity and beyond during [Blockchain Week Berlin](https://www.blockchainweek.berlin/).
-- [Raiden Knowledge Base at ETHBerlin Zwei](https://github.com/ethberlinzwei/KnowledgeBase/blob/master/resources/raiden.md)
-- [ETHBerlin Zwei Teamfinding 2019](https://github.com/ethberlinzwei/Find-A-Team)
-- [Connect with hackers on Riot](https://riot.im/app/#/room/#ethberlinhackers:matrix.org)
-- RECOMMENDED to use [v0.100.5a0 (Antifragile Crocodile)](https://github.com/raiden-network/raiden/releases/tag/v0.100.5a0) of Raiden Network for hacking at ETHBerlin Zwei!
-- Bounties:
-  - [Raiden User Experience Challenge](https://github.com/ethberlinzwei/Bounties/issues/9)
-  - [Raiden Micropayments Challenge](https://github.com/ethberlinzwei/Bounties/issues/8)
-  - [Raiden IoT Challenge](https://github.com/ethberlinzwei/Bounties/issues/7)
+> Details on Raiden bounties at ongoing hackathons can be found here.
 
-[![ETHBerlinZwei](https://user-images.githubusercontent.com/35585644/63592087-11a18180-c5f4-11e9-815a-6de76666245f.png)](https://twitter.com/raiden_network/status/1162354026979188739)
-
-Need ideas?! Check out [RApps](#%EF%B8%8F-rapps) and [Tools](#%EF%B8%8F-tools). Happy hacking!
+Currently no hackathon ongoing.
 
 ## Running a Raiden Full Node
 
@@ -207,6 +197,7 @@ A great permanent mainnet option is to use Raiden with [DAppNode](https://medium
 
 > Raiden Pulse is a bi-monthly summary of all things Raiden: development updates, events, announcements and more.
 
+- [Raiden Pulse #7:](https://medium.com/raiden-network/raiden-pulse-7-news-from-july-and-august-f1f9e4b7b6d3) News from July and August
 - [Raiden Pulse #6:](https://medium.com/raiden-network/raiden-pulse-6-news-from-may-and-june-f519818e7650) News from May and June
 - [Raiden Pulse #5:](https://medium.com/raiden-network/raiden-pulse-5-news-from-march-and-april-56e781aea7c) News from March and April
 - [Raiden Pulse #4:](https://medium.com/raiden-network/raiden-pulse-4-news-from-january-and-february-a25dbee298de) News from January and February
