@@ -12,7 +12,7 @@
   - [Hacks and More Tools for Devs](#%EF%B8%8F-hacks-and-more-tools-for-devs)
   - [RApps](#%EF%B8%8F-rapps)
   - [Testnet Ether Faucets](#-testnet-ether-faucets)
-  - [ERC20 Faucets](#-erc20-faucets)
+  - [Testnet Wrapped Ether](#-testnet-wrapped-ether)
   - [Hackathons](#-hackathons)
 - [Running a Raiden Full Node](#running-a-raiden-full-node)
   - [Testnet](#mainnet)
@@ -122,15 +122,20 @@ Need testnet Ether? Check out these faucets.
 - [Kovan](https://faucet.kovan.network/)
 - [Goerli](https://faucet.goerli.mudit.blog/)
 
-If you have MetaMask installed you can also try the [MetaMask faucets](https://faucet.metamask.io).
+If you have the MetaMask browser extension installed you can also try the [MetaMask faucets](https://faucet.metamask.io). Change to a test networks by clicking Main Ethereum Network and select from Ropsten, Kovan, Rinkeby or Goerli.
 
-### 💸 ERC20 Faucets
+### 💸 Testnet Wrapped Ether
 
-Wrap ether on [0x protocol](https://0x.org/portal). 🏃 Need testnet ERC20 tokens quick?! Try [bokkypoobah](https://github.com/bokkypoobah/WeenusTokenFaucet)'s ERC20 token faucet. For example, send a 0 value transaction from your account to the address below on your preferred network and you'll get 1,000 XEENUS tokens:
-- [Ropsten](https://ropsten.etherscan.io/address/0x7E0480Ca9fD50EB7A3855Cf53c347A1b4d6A2FF5#code): 0x7E0480Ca9fD50EB7A3855Cf53c347A1b4d6A2FF5
-- [Rinkeby](https://rinkeby.etherscan.io/address/0x022E292b44B5a146F2e8ee36Ff44D3dd863C915c#code): 0x022E292b44B5a146F2e8ee36Ff44D3dd863C915c
-- [Kovan](https://kovan.etherscan.io/address/0x022E292b44B5a146F2e8ee36Ff44D3dd863C915c#code): 0x022E292b44B5a146F2e8ee36Ff44D3dd863C915c
-- [Goerli](https://goerli.etherscan.io/address/0x022E292b44B5a146F2e8ee36Ff44D3dd863C915c#code): 0x022E292b44B5a146F2e8ee36Ff44D3dd863C915c
+Need to wrap testnet Ether? Having followed the steps in the previous section, use the MetaMask extension and [select your test network](https://github.com/MetaMask/Add-Token/blob/master/src/switch-network.jpg). Then you can wrap Ether into WETH using [0x protocol](https://0x.org/portal/weth), this currently works on Kovan and Ropsten. You can also wrap Ether using Etherscan on [Goerli](https://goerli.etherscan.io/address/0xb4fbf271143f4fbf7b91a5ded31805e42b2208d6#writeContract) and [Ropsten](https://rinkeby.etherscan.io/address/0x1b45d86492d098b10fdbf382c537359f776f8dad#writeContract): click 'Connect to Web3' and accept via MetaMask extension, on Etherscan scroll down to '5. deposit', enter the value of testnet Ether you'd like to wrap in 'payableAmount' and click write+confirm.
+
+If your wrapped Ether isn't showing up in MetaMask, never fear! Click 'Watch in Wallet' here:
+- [Goerli](https://metamask.github.io/Add-Token/add?tokenImage=https%3A%2F%2Fgithub.com%2FMetaMask%2Feth-contract-metadata%2Fblob%2Fmaster%2Fimages%2Fweth.png%3Fraw%3Dtrue&tokenName=Wrapped%20Ether&tokenAddress=0xb4fbf271143f4fbf7b91a5ded31805e42b2208d6&tokenNet=5&tokenSymbol=WETH&tokenDecimals=WETH)
+- [Ropsten](https://metamask.github.io/Add-Token/add?tokenImage=https%3A%2F%2Fgithub.com%2FMetaMask%2Feth-contract-metadata%2Fblob%2Fmaster%2Fimages%2Fweth.png%3Fraw%3Dtrue&tokenName=Wrapped%20Ether&tokenAddress=0xc778417e063141139fce010982780140aa0cd5ab&tokenNet=3&tokenSymbol=WETH&tokenDecimals=18)
+- [Kovan](https://metamask.github.io/Add-Token/add?tokenImage=https%3A%2F%2Fgithub.com%2FMetaMask%2Feth-contract-metadata%2Fblob%2Fmaster%2Fimages%2Fweth.png%3Fraw%3Dtrue&tokenName=Wrapped%20Ether&tokenAddress=0xd0a1e359811322d97991e03f863a0c30c2cf029c&tokenNet=42&tokenSymbol=WETH&tokenDecimals=18)
+- [Rinkeby](https://metamask.github.io/Add-Token/add?tokenImage=https%3A%2F%2Fgithub.com%2FMetaMask%2Feth-contract-metadata%2Fblob%2Fmaster%2Fimages%2Fweth.png%3Fraw%3Dtrue&tokenName=Wrapped%20Ether&tokenAddress=0x1b45d86492d098b10fdbf382c537359f776f8dad&tokenNet=4&tokenSymbol=WETH&tokenDecimals=18)
+
+🏃 Need testnet ERC20 tokens quick?! Try [bokkypoobah](https://github.com/bokkypoobah/WeenusTokenFaucet)'s ERC20 token faucet. For example, send a 0 value transaction from your account to the contract address on your preferred network and you'll get 1,000 XEENUS tokens on [Goerli](https://goerli.etherscan.io/address/0x022E292b44B5a146F2e8ee36Ff44D3dd863C915c#code), [Ropsten](https://ropsten.etherscan.io/address/0x7E0480Ca9fD50EB7A3855Cf53c347A1b4d6A2FF5#code), [Kovan](https://kovan.etherscan.io/address/0x022E292b44B5a146F2e8ee36Ff44D3dd863C915c#code) and [Rinkeby](https://rinkeby.etherscan.io/address/0x022E292b44B5a146F2e8ee36Ff44D3dd863C915c#code).
+
 
 ### 👷 Hackathons
 
