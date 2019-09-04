@@ -1,4 +1,4 @@
-# Awesome Raiden [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) 
+# Awesome Raiden [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > Welcome to **Awesome Raiden**, a community-curated list of resources, links, projects, tools and hacks on, for and around Raiden!
 
@@ -65,7 +65,7 @@
 
 ### 🏗️ Tools
 
-- [Raiden Workshop Configurator](https://workshops.raiden.network/) - Order hosted nodes for a Raiden workshop or meetup! 
+- [Raiden Workshop Configurator](https://workshops.raiden.network/) - Order hosted nodes for a Raiden workshop or meetup!
 - [Raiden Workshop Material](https://github.com/raiden-network/workshop/tree/eth_cape_town) - Onboarding script and installation guide to create a setup which allows quick and easy hacking on Raiden (e.g. for workshops)
 - [Raiden Wizard](https://github.com/raiden-network/raiden-installer) - Web-based installation tool which provides quick and easy set up of a Raiden node (currently Goerli support only!)
 - [Raiden on DAppNode](https://github.com/dappnode/DAppNodePackage-raiden) (+[DAppNode docs](https://dappnode.github.io/DAppNodeDocs/install/) +[testnet version](https://github.com/vdo/DAppnodePackage-raiden-testnet)) - DAppNode package for the Raiden network
@@ -92,7 +92,7 @@
 - [Local Raiden](https://github.com/ConsenSys/Local-Raiden) - Run a local Raiden network in docker containers for demo and testing purposes
 - [Raiden API TypeScript client](https://github.com/wslyvh/raiden-api-client) - A lightweight Raiden Network API TypeScript client to interact with a Raiden Network node.
 
-### 🖥️ RApps 
+### 🖥️ RApps
 
 > RApps (Raiden Apps) are demos, hackathon submissions and projects building on/with Raiden.
 
@@ -122,7 +122,7 @@ Need testnet Ether? Check out these faucets.
 - [Kovan](https://faucet.kovan.network/)
 - [Goerli](https://faucet.goerli.mudit.blog/)
 
-If you have the MetaMask browser extension installed you can also try the [MetaMask faucets](https://faucet.metamask.io). Change to a test networks by clicking Main Ethereum Network and select from Ropsten, Kovan, Rinkeby or Goerli.
+If you have the MetaMask browser extension installed you can also try the [MetaMask faucets](https://faucet.metamask.io). Change to a test network by clicking Main Ethereum Network and select from Ropsten, Kovan, Rinkeby or Goerli.
 
 ### 💸 Testnet Wrapped Ether
 
@@ -155,7 +155,7 @@ Need ideas?! Check out [RApps](#%EF%B8%8F-rapps) and [Tools](#%EF%B8%8F-tools). 
 
 ## Running a Raiden Full Node
 
-[System Requirements and Installation Guide](https://raiden-network.readthedocs.io/en/latest/overview_and_guide.html). If possible, you should always try new things on Ethereum on testnet before mainnet so you can get a hang of it, this includes trying Raiden Network. 
+[System Requirements and Installation Guide](https://raiden-network.readthedocs.io/en/latest/overview_and_guide.html). If possible, you should always try new things on Ethereum on testnet before mainnet so you can get a hang of it, this includes trying Raiden Network.
 
 Please also note that the current mainnet releases are an alpha deployment of the Raiden Network on the Ethereum mainnet. Hence, deposit limits, as well as a deprecation switch have been put into place. It is absolutely crucial to read the [requirements for safe usage](https://raiden-network.readthedocs.io/en/latest/overview_and_guide.html#requirements-for-safe-usage) carefully before using the software on mainnet.
 
@@ -214,7 +214,7 @@ A great permanent mainnet option is to use Raiden with [DAppNode](https://medium
 - [Raiden Pulse #2:](https://medium.com/raiden-network/raiden-pulse-2-news-from-september-and-october-6a6c6be8ad67) News from September and October
 - [Raiden Pulse #1:](https://medium.com/raiden-network/raiden-pulse-1-news-from-july-and-august-423fae4e9d3e) News from July and August
 
-## Community 
+## Community
 
 ### Community Content
 
