@@ -197,6 +197,7 @@ A great permanent mainnet option is to use Raiden with [DAppNode](https://medium
 
 > Raiden Pulse is a bi-monthly summary of all things Raiden: development updates, events, announcements and more.
 
+- [Raiden Pulse #8:](https://medium.com/raiden-network/raiden-pulse-8-news-from-september-and-october-34cb7411cf39) News from September and October
 - [Raiden Pulse #7:](https://medium.com/raiden-network/raiden-pulse-7-news-from-july-and-august-f1f9e4b7b6d3) News from July and August
 - [Raiden Pulse #6:](https://medium.com/raiden-network/raiden-pulse-6-news-from-may-and-june-f519818e7650) News from May and June
 - [Raiden Pulse #5:](https://medium.com/raiden-network/raiden-pulse-5-news-from-march-and-april-56e781aea7c) News from March and April
