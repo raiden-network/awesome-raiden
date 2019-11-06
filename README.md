@@ -257,6 +257,7 @@ A great permanent mainnet option is to use Raiden with [DAppNode](https://medium
 
 ## Other Resources
 
+- Keep up with [Raiden Network on Blockfolio Signal](https://blockfolio.com/coin/RDN/)
 
 <sub> **Disclaimer**: Please note, that even though we do our best to ensure the quality and accuracy of the information provided, this repo is community curated content and may contain views and opinions, errors and omissions for which the content creator(s) and any represented organization cannot be held liable.
 The wording and concepts regarding financial terminology (e.g. “payments”, “checks”, “currency”, “transfer” (of value)) are exclusively used in an exemplary way to describe technological principles and do not necessarily conform to the real world or legal equivalents of these terms and concepts.
