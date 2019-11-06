@@ -197,6 +197,7 @@ A great permanent mainnet option is to use Raiden with [DAppNode](https://medium
 
 > Raiden Pulse is a bi-monthly summary of all things Raiden: development updates, events, announcements and more.
 
+- [Raiden Pulse #8:](https://medium.com/raiden-network/raiden-pulse-8-news-from-september-and-october-34cb7411cf39) News from September and October
 - [Raiden Pulse #7:](https://medium.com/raiden-network/raiden-pulse-7-news-from-july-and-august-f1f9e4b7b6d3) News from July and August
 - [Raiden Pulse #6:](https://medium.com/raiden-network/raiden-pulse-6-news-from-may-and-june-f519818e7650) News from May and June
 - [Raiden Pulse #5:](https://medium.com/raiden-network/raiden-pulse-5-news-from-march-and-april-56e781aea7c) News from March and April
@@ -256,6 +257,7 @@ A great permanent mainnet option is to use Raiden with [DAppNode](https://medium
 
 ## Other Resources
 
+- Keep up with [Raiden Network on Blockfolio Signal](https://blockfolio.com/coin/RDN/)
 
 <sub> **Disclaimer**: Please note, that even though we do our best to ensure the quality and accuracy of the information provided, this repo is community curated content and may contain views and opinions, errors and omissions for which the content creator(s) and any represented organization cannot be held liable.
 The wording and concepts regarding financial terminology (e.g. “payments”, “checks”, “currency”, “transfer” (of value)) are exclusively used in an exemplary way to describe technological principles and do not necessarily conform to the real world or legal equivalents of these terms and concepts.
