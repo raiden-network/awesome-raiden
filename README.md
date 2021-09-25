@@ -110,6 +110,7 @@
 
 **Projects**
 - [Storj](https://github.com/stefanbenten/raiden-on-storj), [Medium post](https://storj.io/blog/2018/12/taking-payments-to-the-next-level-with-raiden/) - decentralized cloud storage
+- [Hub20](https://hub20.io), [Github](https://github.com/mushroomlabs/hub20) - an open source self-hosted payment gateway for ETH and ERC20 tokens, for payments either on-chain or via Raiden.
 - [Exchange Union XUD](https://github.com/ExchangeUnion/xud/) - a decentralized exchange built on the Lightning and Raiden networks to enable instant and trustless cryptocurrency swaps
 - [Raiden Maps](https://medium.com/raiden-map/raiden-map-mockups-5586082693bf), [Github](https://github.com/raiden-map) - a Raiden Network Analyzer
 
